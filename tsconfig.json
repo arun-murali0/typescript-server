@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "module": "NodeNext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": false,
+    "target": "ES6",
+    "sourceMap": true
+  },
+
+  "include": ["./src/*/"],
+  "exclude": ["node_modules"]
+}
